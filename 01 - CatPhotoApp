@@ -1,0 +1,77 @@
+<!--This is my personal training using the freeCodeCamp first activity of the cat photo app. 
+The self made exercise was based on trying to replicate the activity without consulting the step-by-step 
+guide on freeCodeCamp.-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+    <link href="" rel="stylesheet" />
+</head>
+
+
+<header>
+    <h1>CatPhotoApp</h1>
+</header>
+
+<body>
+    <section id="catphotos">
+        <h1>Cat Photos</h1>
+        <p>See more <a href="https://freecatphotoapp.com/">cat photos</a> in our gallery.</p>
+        <!-- <p>See more <link href="https://freecatphotoapp.com/">cat photos<link/> in our gallery.</p>-->
+        <!--Some difficulties here where I need to put the link mid <p>, and I also forgot how to do commenting
+    I tried to use <link> with href but that didn`t work. Googling it gave me the <a> anchor tags.-->
+        <a href="https://freecatphotoapp.com/"><img
+                src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"></a>
+        <!--<img href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">-->
+        <!--I did forget how to add images to the page too and tried the <img> with href. Got it correct without googling with the src.-->
+    </section>
+    <section id="catlists">
+        <h1>Cat Lists</h1>
+        <h2>Things cats love:</h2>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg">
+        <legend>Cats <i>love</i> lasagna.</legend>
+        <h3>Things cats hate:</h3>
+        <ul>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ul>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg">
+        <legend>Cats <b>hate</b> other cats.</legend>
+        <!--I completely forgot how to do italics and bold words in html!I had to google it.-->
+    </section>
+    <section id="catform">
+        <h1>Cat Form</h1>
+        <form>
+            <fieldset><legend>Is your cat an indoor cat or outdoor cat?</legend><br>
+                <input type="radio" id="indoor" value="indoor" checked><label for="indoor">Indoor</label>
+                <input type="radio" id="outdoor" value="outdoor"><label for="outdoor">Outdoor</label>
+            </fieldset>
+
+            <fieldset><legend>What`s your cat`s personality?</legend><br>
+                <input type="checkbox" id="type1" name="loving" value="loving" checked><label for="type1">Loving</label>
+                <input type="checkbox" id="type2" name="lazy" value="lazy"><label for="type2">lazy</label>
+                <input type="checkbox" id="type3" name="energetic" value="energetic"><label
+                    for="type3">Energetic</label>
+            </fieldset>
+            <fieldset>
+                <input type="url" id="catphotoupload" name="catphotoupload" placeholder="cat photo URL">
+                <input type="submit">
+            </fieldset>
+            <!--<form>Is your cat an indoor or outdoor cat?
+            <option>Indoor</option>
+            <option>Outdoor</option>
+        </form>
+        Forgot how to make the specific type of form and the different types of data collection. I also didn`t remember how to make the box around the form-->
+        </form>
+    </section>
+</body>
+
+</html>
