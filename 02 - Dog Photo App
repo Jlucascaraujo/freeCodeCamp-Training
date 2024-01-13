@@ -1,0 +1,62 @@
+<!--This is my personal training using the freeCodeCamp first activity of the cat photo app. 
+The self made exercise was based on trying to replicate the activity without consulting the step-by-step 
+guide on freeCodeCamp. This consists in changing slight the base exercise instead of replicating it.-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+</head>
+
+<body>
+    <header>Dog Photo App
+    </header>
+    <section id="dogphotos">
+        <h1>Dog Photos</h1>
+        <p>See more <a href="">dog photos</a> in our gallery.</p>
+        <img src="https://img.freepik.com/fotos-gratis/isolado-feliz-sorridente-cao-fundo-branco-retrato-4_1562-693.jpg?w=996&t=st=1705164186~exp=1705164786~hmac=d738911f8191e9e6d69c6875665175b013a14e823b6aa2527300aec6df1f39f7"
+            alt="Who`s a good boy?" width="500" height="300">
+        <!--I had to look up how to limit img size using only html.-->
+    </section>
+    <section id="doglists">
+        <h1>Dog Lists</h1>
+        <h2>Things dogs love:</h2>
+        <ul>
+            <li>being called a good boy</li>
+            <li>treats</li>
+            <li>play catch</li>
+        </ul>
+        <img src="https://images3.memedroid.com/images/UPLOADED933/65205ea3d1b9c.webp" alt="Brown dog with collar."
+            width="500" height="300">
+        <h2>Things dogs hate:</h2>
+        <ul>
+            <li>thunderstorms</li>
+            <li>fireworks</li>
+            <li>the cat</li>
+        </ul>
+        <img src="https://i.redd.it/ogdmf7ihu1g61.jpg" alt="Brown dog with collar."
+            width="500" height="400">
+    </section>
+    <section id="dogform">
+        <form>
+            <fieldset><legend>What is your dog`s size?</legend>
+                <input type="radio" id="dogsize1" name="dogsmall" value="dogsmall" checked><label>Small</label>
+                <input type="radio" id="dogsize2" name="dogmedium" value="dogmedium" ><label>Medium</label>
+                <input type="radio" id="dogsize3" name="dogbig" value="dogbig" ><label>Big</label>
+                <input type="radio" id="dogsize4" name="doghuge" value="doghuge" ><label>Huge</label>
+            </fieldset>
+            <fieldset><legend>Do you require which special care?</legend>
+                <input type="checkbox" id="dogspecial1" name="dogspecialfood" value="dogspecialfood"><label>Special Food</label>
+                <input type="checkbox" id="dogspecial2" name="dogspecialshampoo" value="dogspecialshampoo"><label>Special Shampoo</label>
+                <input type="checkbox" id="dogspecial3" name="dogspecialagecare" value="dogspecialagecare"><label>Age Care</label>
+                <input type="checkbox" id="dogspecial4" name="dogspecialphysneeds" value="dogspecialphysneeds"><label>Physical Needs</label>
+            </fieldset>
+            <fieldset>
+                <input type="url" id="dogphotoupload" name="dogphotoupload" placeholder="dog photo URL">
+                <input type="submit">
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
